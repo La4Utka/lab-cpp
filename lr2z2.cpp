@@ -7,14 +7,14 @@ int main(){
     cin >> N;
 
     cout << "Even:";
-    for(int i = 2; i <= 10; i += 2)
+    for(int i = 2; i <= N; i += 2)
     {
         cout << i;
     }
     cout << '\n';
 
     cout << "Odd:";
-    for(int i = 1; i <= 9; i +=2)
+    for(int i = 1; i <= N; i +=2)
     {
         cout << i;
     }
